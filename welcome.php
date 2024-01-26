@@ -12,7 +12,8 @@ if (!isset($_SESSION["token"])) {
 }
 ?>
 
-<h1>Welcome</h1>
+<h1>Welcome cambiado</h1>
+<p>texto nuevo</p>
 
 <?php
 if ($_SERVER['REQUEST_METHOD']=='POST'){
